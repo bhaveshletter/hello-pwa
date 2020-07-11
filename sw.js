@@ -4,6 +4,7 @@ var version = 'v0.01';
 var files = [
     './',
     './index.html',
+    '../inside.html',
     '../assets/css/index.css',
     '../assets/js/index.js',
     '../assets/images/favicon.ico'
