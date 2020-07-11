@@ -47,7 +47,7 @@ self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
       .then(res => {
-        return res || fetch(event.request);
+        return res || fetch(event.request);  // fetch(event.request) is to make live request to web server, which is not added on files, etc
       })
   )
 })
